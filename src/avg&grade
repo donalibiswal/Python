@@ -1,0 +1,18 @@
+math=int(input("enter math mark"))
+python=int(input("enter python mark"))
+dbms=int(input("enter dbms mark"))
+sum=math+python+dbms
+avg=sum/3
+print("average of total mark is",avg)
+if avg>=90:
+    print("grade is A")
+elif avg>=80:
+    print("grade is B")
+elif avg>=70:
+    print("grade is C")
+elif avg>=60:
+    print("grade is D")
+else:
+    print("otherwise fail")
+          
+          
